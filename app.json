@@ -17,7 +17,7 @@
       "package": "com.company.lifelink2",
       "googleServicesFile": "./google-services.json",
       "adaptiveIcon": {
-        "backgroundColor": "#E6F4FE",
+        "backgroundColor": "#D32F2F",
         "foregroundImage": "./assets/android-icon-foreground.png",
         "backgroundImage": "./assets/android-icon-background.png",
         "monochromeImage": "./assets/android-icon-monochrome.png"
@@ -37,6 +37,14 @@
           "color": "#D32F2F"
         }
       ],
+      [
+  "expo-splash-screen",
+  {
+    "backgroundColor": "#D32F2F",
+    "image": "./assets/splash-icon.png",
+    "imageWidth": 200
+  }
+],
       [
         "expo-location",
         {
